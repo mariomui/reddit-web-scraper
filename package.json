@@ -1,0 +1,29 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape": "npm run redditscraper.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.3",
+    "faker": "^4.1.0",
+    "mongoose": "^5.4.0",
+    "puppeteer": "^1.11.0"
+  },
+  "devDependencies": {
+    "@types/jest-environment-puppeteer": "^2.2.1",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "path": "^0.12.7"
+  }
+}
